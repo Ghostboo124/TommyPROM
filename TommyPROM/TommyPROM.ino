@@ -19,7 +19,11 @@
 #include "XModem.h"
 
 
+#ifdef IS_MEGA
+static const char * MY_VERSION = "3.7-mega";
+#else
 static const char * MY_VERSION = "3.7";
+#endif
 
 
 // Global status
